@@ -1,0 +1,17 @@
+{
+  
+    "experimentalDecorators": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "outDir": "./build",
+      "sourceMap": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
